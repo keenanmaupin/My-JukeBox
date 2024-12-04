@@ -1,0 +1,124 @@
+
+body {
+  margin: 0;
+  font-family:'Courier New', Courier, monospace;
+  background-image: url("./assets/pageVibes/neonVinyl.png");
+  background-position: center;
+  background-size: cover;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  .h4{
+    font-size: 2.5rem;
+    color: #000000;
+    font-family:'Times New Roman', Times, serif;
+  }
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9c7407de; 
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(0, 0, 0), 
+  20px 25px 20px rgb(0, 0, 0);
+  margin-top: 30px;
+  position:relative;  
+  margin-left: 23.4%;
+}
+
+.navbar .logo {
+  color: #000000;
+  font-size: 2.5rem;
+  &:hover {
+    color: #15ff00;
+    transition: color 2s;
+  }
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  color: #15ff00;
+  transition: color 1s;
+
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  overflow-y: auto;
+ 
+}
+
+.card-container {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  
+}
+
+/* Card */
+.card {
+  width: 100%;
+  height: calc(100vh - 80px); /* Full screen minus navbar height */
+  background-color: #c5940edc;
+  border-radius: 20px;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+  p {
+    color: #000000;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  h4 {
+    color: #000000;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+
+
+  }
+  box-shadow: 0 0 10px rgb(255, 0, 255), 
+  0 0 20px rgb(0, 252, 252);
+}
+
+/* Footer */
+.footer {
+  background-color: #282c34;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 1, 1); 
+  border-radius: 20px;
+  margin-bottom: 25px;
+}

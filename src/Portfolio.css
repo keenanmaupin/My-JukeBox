@@ -1,0 +1,125 @@
+
+.portfolio {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .portfolio h2 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: #000000;
+    margin-bottom: 40px;
+  }
+  
+  .portfolio h3 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000000;
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  /* Carousel Styling */
+  .carousel-section {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 20 4px 20px rgba(0, 0, 0, 0.986);
+  }
+  
+  .carousel-section h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  
+  .carousel-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .carousel-buttons {
+    display: flex;
+  }
+  
+  .carousel-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Music Section Styling */
+  .music-section {
+    padding: 20px;
+    background-color: #f1f3f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .track-list {
+    margin-top: 20px;
+    
+  }
+  
+  .track {
+    margin-bottom: 20px;
+  }
+  
+  .track h4 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+  }
+  
+  .track .rhap_container {
+    box-shadow: none;
+    border: 2.5px solid #096ccf;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 0 14px 16px#000000;    
+  }
+  
+  /* Tooltip and Home Link Styling */
+  #Home-Page {
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  #Home-Page img {
+    transition: transform 0.3s ease;
+  }
+  
+  #Home-Page img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .portfolio h2 {
+      font-size: 2rem;
+    }
+  
+    .portfolio h3 {
+      font-size: 1.5rem;
+    }
+  
+    .carousel-buttons button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  
+    .track h4 {
+      font-size: 1.2rem;
+    }
+  }
+  

@@ -80,11 +80,11 @@ body {
   flex-wrap: wrap;
   gap: 2rem;
   padding: 2rem;
-  
 }
 
 /* Card */
 .card {
+  min-height: fit-content;
   width: 100%;
   height: calc(100vh - 80px); /* Full screen minus navbar height */
   background-color: #c5940edc;

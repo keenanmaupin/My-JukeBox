@@ -45,7 +45,6 @@ const Cooking= () => {
       </div>
       <br></br>
       <hr></hr>
-
       <a href="/" id="Home-Page"><img src="https://cdn3.emoji.gg/emojis/45625-vinylrecord.gif" width="64px" height="64px" alt="VinylRecord"/></a>
       <Tooltip 
         anchorSelect = '#Home-Page'
